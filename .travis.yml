@@ -1,16 +1,8 @@
-language:
-  - minimal
-
-sudo:
-  - false
-
-dist:
-  - trusty
+language: objective-c
+osx_image: xcode9
 
 matrix:
   include:
-    - os: linux
-      env: VAR1=Linux
     - os: osx
       env: VAR1=OSX
 
